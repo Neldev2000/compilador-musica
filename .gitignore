@@ -1,0 +1,76 @@
+# Archivos compilados
+*.o
+*.out
+*.exe
+
+# Archivos de IDE
+.vscode/
+.idea/
+
+# Archivos de construcción
+build/
+cmake-build-debug/
+
+# Archivos temporales
+*.tmp
+*~
+
+# Archivos MIDI generados
+*.mid
+*.midi
+
+# Archivos generados por el compilador
+*.d
+*.slo
+*.lo
+*.gch
+*.pch
+*.lai
+*.la
+*.a
+*.lib
+
+# Directorios de compilación
+bin/
+obj/
+
+# Archivos de CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps/
+*.cmake
+
+# Archivos de IDE
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.suo
+*.user
+*.userosscache
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.VC.opendb
+
+# Archivos del sistema
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Archivos temporales
+*.swp
+*.swo
+*.bak
+*.log
+
+# Archivos específicos del proyecto
+*.mus.tmp 
