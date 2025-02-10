@@ -68,4 +68,4 @@ patron ritmo1 {
 
 ## Equipo
 - Lorena
-- Julio 
+- Julio
