@@ -6,12 +6,12 @@ Este proyecto implementa un compilador que traduce un lenguaje de dominio espec�
 
 ```
 .
-├── src/                    # Archivos de implementación (.cpp)
-│   ├── scanner/           # Implementación del analizador léxico
-│   ├── parser/            # Implementación del analizador sintáctico
-│   ├── semantic/          # Implementación del analizador semántico
-│   └── generator/         # Implementación del generador MIDI
-├── include/               # Archivos de cabecera (.h)
+├── src/                  # Archivos de implementación (.cpp)
+│   ├── scanner/          # Implementación del analizador léxico
+│   ├── parser/           # Implementación del analizador sintáctico
+│   ├── semantic/         # Implementación del analizador semántico
+│   └── generator/        # Implementación del generador MIDI
+├── include/              # Archivos de cabecera (.h)
 │   ├── scanner/          # Cabeceras del analizador léxico
 │   ├── parser/           # Cabeceras del analizador sintáctico
 │   ├── semantic/         # Cabeceras del analizador semántico
@@ -52,9 +52,11 @@ compas 4/4
 
 // - Palabras reservadas - 
 
-Clave -> armadura
-tempo 
+Tonalidad
+Tempo 
 Compas
+M = Mayor -> 0
+m = menor -> 1
 # : Sostenido -> +1/2
 ♭ -> b : Bemol -> -1/2
 
