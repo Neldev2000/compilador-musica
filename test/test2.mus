@@ -1,0 +1,39 @@
+// Prueba de diferentes compases y tempos
+Tempo 80
+Compas 3/4
+
+// Cambio de tonalidad a menor
+Tonalidad La m
+
+// Secuencia rápida de semicorcheas
+Do4 Semicorchea
+Re4 Semicorchea
+Mi4 Semicorchea
+Fa4 Semicorchea
+Sol4 Semicorchea
+La4 Semicorchea
+Si4 Semicorchea
+Do5 Semicorchea
+
+// Mezcla de duraciones
+Do4 Blanca
+Re4 Negra
+Mi4 Corchea
+Fa4 Semicorchea
+
+// Prueba de alteraciones consecutivas
+Do#4 Negra
+Do#4 Corchea
+Reb4 Negra
+Mib4 Blanca
+Fa#4 Corchea
+Sol♭4 Semicorchea
+
+// Mezcla de notación latina e inglesa
+Do4 Negra
+D4 Negra
+Mi4 Negra
+F4 Negra
+Sol4 Negra
+A4 Negra
+Si4 Negra 

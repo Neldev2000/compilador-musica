@@ -1,0 +1,27 @@
+// Configuración inicial del compás
+Tempo 120
+Compas 4/4
+
+// Definición de tonalidad
+Tonalidad Do M
+
+// Secuencia de notas con diferentes duraciones
+Do4 Negra
+Re4 Corchea
+Mi4 Blanca
+Fa4 Semicorchea
+Sol4 Negra
+La4 Corchea
+Si4 Blanca
+
+// Notas con alteraciones
+Do#4 Negra
+Reb4 Corchea
+Mi♭4 Blanca
+
+// Usando notación alternativa (inglesa)
+C4 Negra
+D4 Corchea
+E4 Blanca
+F#4 Negra
+Gb4 Corchea 

@@ -2,37 +2,45 @@
 
 typedef enum
 {
-  TOKEN_EOF = 0,
-  TOKEN_STRING = 258,
-  TOKEN_NOT = 259,
-  TOKEN_AND = 260,
-  TOKEN_OR = 261,
-  TOKEN_IMPL = 262,
-  TOKEN_BICOND = 263,
-  TOKEN_ASSIGN = 264,
-  TOKEN_IDENTIFIER = 265,
-  TOKEN_LPAREN = 266,
-  TOKEN_RPAREN = 267,
-  TOKEN_EVAL = 268
-}
-token_t;
+    TOKEN_EOF = 0,
+    // Palabras reservadas
+    TOKEN_TONALIDAD = 258,
+    TOKEN_TEMPO = 259,
+    TOKEN_COMPAS = 260,
+    
+    // Notas musicales
+    TOKEN_NOTA_DO = 261,    // C
+    TOKEN_NOTA_RE = 262,    // D
+    TOKEN_NOTA_MI = 263,    // E
+    TOKEN_NOTA_FA = 264,    // F
+    TOKEN_NOTA_SOL = 265,   // G
+    TOKEN_NOTA_LA = 266,    // A
+    TOKEN_NOTA_SI = 267,    // B
+    
+    // Alteraciones
+    TOKEN_SOSTENIDO = 268,  // #
+    TOKEN_BEMOL = 269,      // b
+    
+    // Duraciones
+    TOKEN_BLANCA = 270,
+    TOKEN_NEGRA = 271,
+    TOKEN_CORCHEA = 272,
+    TOKEN_SEMICORCHEA = 273,
+    
+    // Tonos
+    TOKEN_MAYOR = 274,      // M
+    TOKEN_MENOR = 275,      // m
+    
+    // Números y símbolos
+    TOKEN_NUMERO = 276,
+    TOKEN_BARRA = 277,      // /
+    TOKEN_COMENTARIO = 278,
+    
+    // Otros
+    TOKEN_IDENTIFIER = 279,
+    
+    // Nota completa (nota + alteración opcional + octava)
+    TOKEN_NOTA_COMPLETA = 280
+} token_t;
 
-inline const char* token_str(token_t t)
-{
-  switch(t)
-  {
-    case TOKEN_EOF: return "<EOF>";
-    case TOKEN_STRING: return "<STRING>";
-    case TOKEN_NOT: return "<NOT>";
-    case TOKEN_AND: return "<AND>";
-    case TOKEN_OR: return "<OR>";
-    case TOKEN_IMPL: return "<IMPLICATION>";
-    case TOKEN_BICOND: return "<BICONDITIONAL>";
-    case TOKEN_ASSIGN: return "<ASSIGNMENT>";
-    case TOKEN_IDENTIFIER: return "<IDENTIFIER>";
-    case TOKEN_LPAREN: return "<L_PAREN>";
-    case TOKEN_RPAREN: return "<R_PAREN>";
-    case TOKEN_EVAL: return "<EVAL>";
-    default: return "<UNKNOWN>";
-  }
-}
+const char* token_str(token_t t);
