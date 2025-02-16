@@ -44,27 +44,40 @@ Ejemplo de uso:
 
 ## Sintaxis del Lenguaje Musical
 ```
-// Configuración inicial
+// Estructura general del lenguaje
+
+Estandares denifidos
 tempo 120
 compas 4/4
 
+// - Palabras reservadas - 
+
+Clave -> armadura
+tempo 
+Compas
+# : Sostenido -> +1/2
+♭ -> b : Bemol -> -1/2
+
 // Notas musicales
-Do4 negra
-Re4 negra
-Mi4 negra
-Fa4 negra
+Do  -> C
+Re  -> D
+Mi  -> E
+Fa  -> F
+Sol -> G
+La  -> A
+Si  -> B
 
-// Acordes
-[Do4,Mi4,Sol4] blanca
+// Duracion
 
-// Patrones rítmicos
-patron ritmo1 {
-    Do4 corchea
-    Mi4 corchea
-    Sol4 corchea
-    Mi4 corchea
-}
-```
+Figura                    Midi
+______________________________
+Blanca       ->  1/2   -> 960
+Negra        ->  1/4   -> 480
+Corchea      ->  1/8   -> 240
+Semicorchea  ->  1/16  -> 120
+
+//Notas y Duraciones
+Cada nota se escribe con su letra asignada correspondiente (C, D, E), su octava (4 , 5) y su duracion (Negra, blanca, corchea).
 
 ## Equipo
 - Lorena
