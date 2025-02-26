@@ -32,12 +32,21 @@ cmake ..
 make
 ```
 
-## Uso
-El compilador procesará archivos de música textual (.mus) y generará archivos MIDI.
+## Uso y Pruebas
+El proyecto actualmente está en desarrollo. Por el momento, puedes encontrar ejemplos del lenguaje musical en la carpeta `test/`:
 
-Ejemplo de uso:
+- `test1.mus`: Contiene ejemplos básicos de la sintaxis del lenguaje
+- `test2.mus`: Contiene ejemplos más avanzados de composición musical
+
+Para examinar estos archivos de prueba:
 ```bash
-./compilador_musical ejemplo.mus -o salida.midi
+cat test/test1.mus  # Ver el contenido del primer archivo de prueba
+cat test/test2.mus  # Ver el contenido del segundo archivo de prueba
+```
+
+La funcionalidad de generación de archivos MIDI está en desarrollo. Próximamente se podrá usar el compilador de la siguiente manera:
+```bash
+./compilador_musical archivo.mus -o salida.midi
 ```
 
 ## Sintaxis del Lenguaje Musical
@@ -78,6 +87,7 @@ Semicorchea  ->  1/16  -> 120
 
 //Notas y Duraciones
 Cada nota se escribe con su letra asignada correspondiente (C, D, E), su octava (4 , 5) y su duracion (Negra, blanca, corchea).
+```
 
 ## Equipo
 - Lorena
