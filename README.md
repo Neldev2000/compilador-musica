@@ -16,10 +16,8 @@ Este proyecto implementa un compilador que traduce un lenguaje de dominio espec�
 │   ├── parser/           # Cabeceras del analizador sintáctico
 │   ├── semantic/         # Cabeceras del analizador semántico
 │   └── generator/        # Cabeceras del generador MIDI
-├── test/                 # Archivos de prueba
-├── lib/                  # Bibliotecas externas
-├── docs/                 # Documentación
-└── examples/             # Ejemplos de código musical
+├── test/                 # Archivos de prueba y ejemplos del lenguaje musical (.mus)
+└── lib/                  # Bibliotecas externas
 ```
 
 ## Requisitos
