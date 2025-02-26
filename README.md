@@ -7,17 +7,12 @@ Este proyecto implementa un compilador que traduce un lenguaje de dominio espec�
 ```
 .
 ├── src/                  # Archivos de implementación (.cpp)
-│   ├── scanner/          # Implementación del analizador léxico
-│   ├── parser/           # Implementación del analizador sintáctico
-│   ├── semantic/         # Implementación del analizador semántico
-│   └── generator/        # Implementación del generador MIDI
-├── include/              # Archivos de cabecera (.h)
-│   ├── scanner/          # Cabeceras del analizador léxico
-│   ├── parser/           # Cabeceras del analizador sintáctico
-│   ├── semantic/         # Cabeceras del analizador semántico
-│   └── generator/        # Cabeceras del generador MIDI
-├── test/                 # Archivos de prueba y ejemplos del lenguaje musical (.mus)
-└── lib/                  # Bibliotecas externas
+│   ├── scanner/         # Implementación del analizador léxico
+│   └── parser/          # Implementación del analizador sintáctico
+├── include/             # Archivos de cabecera (.h)
+│   ├── scanner/         # Cabeceras del analizador léxico
+│   └── parser/          # Cabeceras del analizador sintáctico
+└── test/               # Archivos de prueba y ejemplos del lenguaje musical (.mus)
 ```
 
 ## Requisitos
