@@ -26,6 +26,7 @@ lex.yy.c: $(SCANNER_DIR)/scanner.flex
 
 clean:
 	rm -f scanner main.o token.o lex.yy.c
+	rm -f $(SCANNER_DIR)/*.o
 
 test: scanner
 	./scanner ../../test/test1.mus

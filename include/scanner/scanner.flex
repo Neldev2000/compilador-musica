@@ -3,11 +3,10 @@
 %}
 
 ESPACIO     [ \t\n]
-DIGITO      [0-9]
-LETRA       [A-Za-z]
-NUMERO      {DIGITO}+
-COMENTARIO  "//".*
 OCTAVA      [0-9]
+LETRA       [A-Za-z]
+NUMERO      {OCTAVA}+
+COMENTARIO  "//".*
 NOTA_LAT    "Do"|"Re"|"Mi"|"Fa"|"Sol"|"La"|"Si"
 NOTA_ING    "C"|"D"|"E"|"F"|"G"|"A"|"B"
 ALTER       "b"|"#"|"♭"
